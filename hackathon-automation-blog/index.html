@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Field notes on AI workflows, no-code tools, and the tiny automations that help hackathon teams ship bigger ideas.">
+  <meta name="theme-color" content="#f5f3ec">
+  <title>Loop / Field notes for builders</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Loop home"><span class="brand-symbol" aria-hidden="true">↗</span>loop<span class="wordmark-dot">.</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#latest">Field notes</a>
+      <a href="#toolkit">The toolkit</a>
+      <a href="#newsletter">Dispatch</a>
+    </nav>
+    <a class="header-link" href="#latest">Read the latest <span aria-hidden="true">↘</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu <span aria-hidden="true">+</span></button>
+  </header>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#latest">Field notes</a><a href="#toolkit">The toolkit</a><a href="#newsletter">Dispatch</a>
+  </nav>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> Less busywork. More breakthrough.</p>
+        <h1 id="hero-title">Make the<br>boring <span>automatic.</span></h1>
+        <p class="hero-description">Field-tested workflows, AI experiments, and scrappy tools for teams that would rather build the idea than manage the checklist.</p>
+        <div class="hero-actions"><a class="primary-cta" href="#latest">Explore the notes <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="dashboard-scene" aria-label="Automation analytics dashboard preview">
+        <div class="scene-lines" aria-hidden="true"></div>
+        <div class="dashboard-window">
+          <div class="dashboard-topbar"><span class="dashboard-logo">↗</span><span>Automation Overview</span><div class="dashboard-user"><span>May 1 – May 31</span><span class="user-dot">A</span><span class="user-dot user-dot-two">M</span></div></div>
+          <div class="dashboard-body">
+            <aside class="dashboard-rail" aria-hidden="true"><span>⌂</span><span>⌘</span><span>ϟ</span><span>◷</span><span>⚙</span></aside>
+            <div class="dashboard-content">
+              <div class="metric-grid"><div class="metric-card"><small>Automations</small><strong>1,243</strong><span>↗ 12.8%</span></div><div class="metric-card"><small>Time saved</small><strong>320<span>h</span></strong><span>↗ 18.4%</span></div><div class="metric-card"><small>Success rate</small><strong>98.6<span>%</span></strong><span>↗ 2.1%</span></div><div class="metric-card"><small>ROI</small><strong>$186K</strong><span>↗ 24.6%</span></div></div>
+              <div class="chart-card"><div class="chart-heading"><div><strong>Automation runs</strong><small>Activity across all workflows</small></div><span>Last 30 days&nbsp;⌄</span></div><div class="chart-area"><div class="chart-y-axis"><span>2.0k</span><span>1.5k</span><span>1.0k</span><span>0.5k</span></div><svg class="chart-svg" viewBox="0 0 600 180" role="img" aria-label="Automation runs trending upward through May"><defs><linearGradient id="chart-fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#28c6ff" stop-opacity=".3"/><stop offset="100%" stop-color="#7c4dff" stop-opacity="0"/></linearGradient><linearGradient id="chart-stroke" x1="0" x2="1"><stop offset="0%" stop-color="#8f4dff"/><stop offset="100%" stop-color="#21d4fd"/></linearGradient></defs><path class="chart-fill" d="M0 145 C38 139 48 112 80 120 S122 133 150 101 S202 116 233 88 S283 98 315 76 S364 95 398 63 S448 78 480 46 S528 65 555 28 S580 44 600 10 L600 180 L0 180Z"/><path class="chart-line" d="M0 145 C38 139 48 112 80 120 S122 133 150 101 S202 116 233 88 S283 98 315 76 S364 95 398 63 S448 78 480 46 S528 65 555 28 S580 44 600 10"/><circle cx="600" cy="10" r="5" class="chart-point"/></svg><div class="chart-x-axis"><span>May 01</span><span>May 08</span><span>May 15</span><span>May 22</span><span>May 31</span></div></div></div>
+              <div class="dashboard-lower"><div class="workflow-card"><div class="lower-heading"><strong>Top workflows</strong><span>View all →</span></div><div><span>Lead enrichment</span><b>1,682 <i>↗</i></b></div><div><span>Email outreach</span><b>1,324 <i>↗</i></b></div><div><span>Invoice processing</span><b>986 <i>↗</i></b></div></div><div class="copilot-card"><div class="lower-heading"><strong>AI copilot</strong><span class="copilot-status">● Active</span></div><p>Your assistant is optimizing workflows</p><div class="copilot-wave">✳ <span>3 suggestions ready</span></div></div><div class="bots-card"><div class="lower-heading"><strong>Active bots</strong><span>•••</span></div><strong class="bot-count">24</strong><div class="avatar-row"><span>A</span><span>M</span><span>J</span><small>+21</small></div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="efficiency-badge"><small>Workflow efficiency</small><strong>87% <span>↗</span></strong></div>
+        <div class="scene-caption"><span>LIVE AUTOMATION OVERVIEW</span><span>UPDATED JUST NOW <i></i></span></div>
+      </div>
+    </section>
+
+    <section class="latest section-wrap" id="latest" aria-labelledby="latest-title">
+      <div class="section-heading"><div><p class="eyebrow section-index">01 / THE FIELD NOTES</p><h2 id="latest-title">Good ideas, <span>less overhead.</span></h2></div><p class="section-aside">Useful things we learned while building fast and figuring it out as we go.</p></div>
+      <div class="discovery-bar">
+        <div class="filters" role="group" aria-label="Filter posts by topic">
+          <button class="filter-button is-active" type="button" data-category="All">All notes <span>06</span></button>
+          <button class="filter-button" type="button" data-category="AI workflows">AI workflows</button>
+          <button class="filter-button" type="button" data-category="No-code">No-code</button>
+          <button class="filter-button" type="button" data-category="Team ops">Team ops</button>
+          <button class="filter-button saved-filter" type="button" data-category="Saved">Saved <span class="saved-count">0</span></button>
+        </div>
+        <label class="search-box"><span aria-hidden="true">⌕</span><span class="visually-hidden">Search articles</span><input id="post-search" type="search" placeholder="Find a field note..." autocomplete="off"></label>
+      </div>
+      <p class="results-message" id="results-message" aria-live="polite"></p>
+      <div class="post-grid" id="post-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">∅</span><h3>No notes found.</h3><p>Try a different search or topic.</p><button class="clear-filters" type="button">Clear filters</button></div>
+    </section>
+
+    <section class="toolkit" id="toolkit" aria-labelledby="toolkit-title">
+      <div class="toolkit-inner"><p class="eyebrow">02 / A SMALL STARTING KIT</p><h2 id="toolkit-title">Less setup.<br><span>More signal.</span></h2><p class="toolkit-copy">A few thoughtfully chosen tools can give your team its best hours back. Start with one annoying repeat task and make it disappear.</p><a class="toolkit-link" href="#latest">Find a workflow to steal <span aria-hidden="true">↗</span></a></div>
+      <div class="toolkit-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core">MAKE<br>IT<br>FLOW<span>↗</span></div><span class="orbit-tag tag-one">IDEA → ACTION</span><span class="orbit-tag tag-two">LESS COPY / PASTE</span><span class="orbit-tag tag-three">HUMAN IN THE LOOP</span></div>
+    </section>
+
+    <section class="newsletter section-wrap" id="newsletter" aria-labelledby="newsletter-title">
+      <div class="newsletter-label"><p class="eyebrow">03 / THE OCCASIONAL DISPATCH</p><span>NO SPAM. NO HUSTLE SERMONS.</span></div>
+      <div class="newsletter-main"><h2 id="newsletter-title">A little more<br><span>signal in your inbox.</span></h2><p>Fresh experiments and useful links, when there’s actually something worth sending.</p>
+        <form class="newsletter-form" id="newsletter-form"><label class="visually-hidden" for="email-address">Your email address</label><input id="email-address" name="email" type="email" placeholder="you@somewhere.com" required><button type="submit">Count me in <span aria-hidden="true">↗</span></button></form><p class="form-status" id="form-status" aria-live="polite">No mailing service is connected yet; this demo confirms your signup locally.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark footer-mark" href="#top"><span class="brand-symbol" aria-hidden="true">↗</span>loop<span class="wordmark-dot">.</span></a><span>MADE FOR BUILDING, NOT BUSYWORK.</span><a href="#top">BACK TO THE TOP ↑</a><span>© 2026 LOOP FIELD NOTES</span></footer>
+
+  <dialog class="article-dialog" id="article-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close article">×</button><div id="dialog-content"></div></dialog>
+</body>
+</html>
