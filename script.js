@@ -1,5 +1,5 @@
 /**
- * THE DAILY BUTCHER - MODERN MEAT SHOP LOGIC
+ * KOMBAN CUTS - MODERN MEAT SHOP LOGIC
  * High-performance vanilla JS store controller
  */
 
@@ -625,10 +625,10 @@ window.submitWhatsAppOrder = function(e) {
   if (appliedCoupon === 'FARM10') discount = Math.min(100, Math.round(subtotal * 0.10));
 
   const grandTotal = Math.max(0, subtotal + deliveryFee + PACKAGING_FEE - discount);
-  const orderId = 'TDB-' + Math.floor(100000 + Math.random() * 900000);
+  const orderId = 'KC-' + Math.floor(100000 + Math.random() * 900000);
 
   // Build formatted WhatsApp message
-  let msg = `🛒 *NEW ORDER - THE DAILY BUTCHER*\n`;
+  let msg = `🛒 *NEW ORDER - KOMBAN CUTS*\n`;
   msg += `*Order ID:* ${orderId}\n`;
   msg += `--------------------------------\n`;
   msg += `👤 *Customer:* ${name}\n`;
